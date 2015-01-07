@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Gas Forge</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - Gas Forge</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect questions:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+	var el = new Element('p') ;
+	el.set('html', '<a href="index.html">Click here to return to the start.</a>');
+	$('result').adopt(el);
+
+}
+// Test Questions
+var questions = [
+{
+
+label : '1. Before you operate the gas forge you must',
+
+options : ['A. obtain permission from the teacher.','B. pass the safety test on the gas forge.','C. wear eye protection.','D. all of the above.'],
+
+answer : ['D. all of the above.']
+
+},
+
+{
+
+label : '2. The lid to the gas forge must be open before lighting it.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '3. Always ____________________ the gas forge before lighting it.',
+
+options : ['A. walk away from','B. purge','C. replace the firebox in','D. insert the air control in'],
+
+answer : ['B. purge']
+
+},
+
+{
+
+label : '4. Hot metal left unattended should be marked __________ with chalk.',
+
+options : ['A. with an "x"','B. with your name','C. "hot"','D. none of the above'],
+
+answer : ['C. "hot"']
+
+},
+
+{
+
+label : '5. When working with the gas forge you should',
+
+options : ['A. consider all metal and tongs as hot.','B. wear leather gloves.','C. use tongs to handle hot metal.','D. all of the above.'],
+
+answer : ['D. all of the above.']
+
+},
+
+{
+
+label : '6. A container of water near the forge is used to',
+
+options : ['A. cool hot metal.','B. water the flowers.','C. provide air conditioning.','D. none of the above.'],
+
+answer : ['A. cool hot metal.']
+
+},
+
+{
+
+label : '7. If you are uncertain about the set-up or any aspect of the operation, you should',
+
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+
+answer : ['B. check with your teacher before proceeding.']
+
+},
+
+{
+
+label : '8. Avoid steam burns when quenching hot metal by keep exposed skin well away from quenching water.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '9. Which of the following must be worn over your safety glasses while operating the gas forge?',
+
+options : ['A. Sun glasses.','B. A welders hat.','C. A sun visor.','D. Metal screen face shield.'],
+
+answer : ['D. Metal screen face shield.']
+
+},
+
+{
+
+label : '10. Hammering on the anvil should only be done when forging material.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>

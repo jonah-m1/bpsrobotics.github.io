@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Buffer</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - Buffer</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect answers:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+var el = new Element('p') ;
+el.set('html', '<a href="index.html">Click here to return to the start.</a>');
+$('result').adopt(el);
+}
+// Test Questions
+var questions = [
+{
+
+label : '1. Teacher permission is required before using the buffer.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+
+{
+
+label : '2. Eye protection must be worn while operating the buffer.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+
+{
+
+label : '3. When operating the buffer, you must,',
+
+options : ['A. Be the only operator at that time.','B. Use steady, even pressure which does not slow down the motor.','C. Buff on the front down side of the wheel only.','D. All of the above.'],
+
+answer : ['D. All of the above.'],
+forceAnswer : true
+
+},
+
+{
+
+label : '4. Never hold the work piece with a rag or materials which may become entangled in the buffer.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+
+{
+
+label : '5. When using the buffer, always,',
+
+options : ['A. Hold the work piece firmly with both hands.','B. Keep unsecured long hair, loose clothing and accessories away from the buffing wheel.','C. Avoid applying excessive pressure.','D. All of the above.'],
+
+answer : ['D. All of the above.'],
+forceAnswer : true
+
+},
+
+{
+
+label : '6. Points and sharp edges should be held away from the buffing wheel or down at all times.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+
+{
+
+label : '7. If you are uncertain about any aspect of the operation you should,',
+
+options : ['A. Go ahead and try the operation.','B. Check with your teacher before proceeding.','C. Call the machine manufacturer.','D. None of the above.'],
+
+answer : ['B. Check with your teacher before proceeding.'],
+forceAnswer : true
+
+},
+
+{
+
+label : '8. Students should never let themselves be distracted when working on the buffer.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+
+{
+
+label : '9. It is safer to stand to the side of the wheel and buff than to stand in front and buff.',
+
+options : ['A. True','B. False'],
+
+answer : ['B. False'],
+forceAnswer : true
+
+},
+
+{
+
+label : '10. Students should never double team on one buffing station.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+
+{
+
+label : '11. When operating the buffer, always,',
+
+options : ['A. Make certain the wheel guards are in place,','B. Apply polishing compound sparingly','C. Keep hands away from the wheel.','D. All of the above.'],
+
+answer : ['D. All of the above.'],
+forceAnswer : true
+
+},
+
+{
+
+label : '12. When operation is finished, turn the power off and stay with the machine.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True'],
+forceAnswer : true
+
+},
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>

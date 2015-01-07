@@ -1,0 +1,1193 @@
+{
+label : '1. Eye protection must be worn at all times in the metal shop.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. Learn procedures to follow in case of fire or accidents.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Operate machines only after',
+options : ['A. receiving instruction and passing each safety test with 100% accuracy.','B. understanding how it operates.','C. having teacher's permission.','D. all of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '4. Machines are not to be operated while the teacher is out of the room.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Immediately report any injury or accident, regardless of how minor, to the',
+options : ['A. coach.','B. school nurse.','C. counselor.','D. teacher.'],
+answer : ['#######']
+},
+{
+label : '6. Handle sharp-edged and pointed tools with care.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. Notify the __________ when you find a tool or machine that is out of adjustment.',
+options : ['A. custodian','B. principal','C. teacher','D. counselor'],
+answer : ['#######']
+},
+{
+label : '8. Adjustments and measurements must be made when the',
+options : ['A. machine is at a dead stop.','B. machine is not at full power.','C. switch is on.','D. switch is off but the machine is still coasting.'],
+answer : ['#######']
+},
+{
+label : '9. Electrical tools require special rules such as',
+options : ['A. being sure the witch is in the "off" position before you "plug in" the cord.','B. making sure the area is clean and dry.','C. removing any flammable liquids from area.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '10. Your undivided attention must be given to',
+options : ['A. the machine you are using.','B. nearby friends.','C. the intercom system.','D. what's going on outside.'],
+answer : ['#######']
+},
+{
+label : '11. Start and stop your own machine and remain with it until the',
+options : ['A. machine is not at full power.','B. machine is at a dead stop.','C. switch is on.','D. switch is off but machine is still coasting.'],
+answer : ['#######']
+},
+{
+label : '12. Before the job is completed,',
+options : ['A. machines, benches, and floors must be clean.','B. tools are clean and returned to proper storage place.','C. scraps and unused materials are properly stored.','D. all of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '13. You will be held responsible for vandalism.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '14. Metal is to be considered hot in which areas?',
+options : ['A. welding','B. foundry','C. forging','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '15. Compressed air is very dangerous. Students using compressed air should:',
+options : ['A. Wear safety glasses.','B. Avoid blowing sandust toward themselves or anyone else.','C. Never clean off their clothes or others.','D. All of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '16. While in the shop,',
+options : ['A. use tools for their intended purpose and conduct yourself in a workman-like manner.','B. consider any metal that has been worked to be sharp and/or hot.','C. lost clothing, long hair, and accessories may cause accidents around','machinery.'],
+answer : ['#######']
+},
+{
+label : '17. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '1. Procedures to follow before actually using the metal squaring shear should include',
+options : ['A. obtaining permission.','B. wearing proper eye protection.','C. making sure safety guard is in place.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '2. Feed and operate the squaring shear from the',
+options : ['A. side.','B. back.','C. operator's position.','D. none of the above.'],
+answer : ['#######']
+},
+{
+label : '3. Always keep your fingers at least __________ away from the pressure bar and blade.',
+options : ['A. 1 foot','B. 1 meter','C. 4 inches','D. 1 gauge'],
+answer : ['#######']
+},
+{
+label : '4. Allow small pieces to drop; do not attempt to catch them.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Remove burrs before working; gloves are required for handling large pieces.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '6. Place scraps or trimmings in metal waste container and return machine to normal position.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. Whenever two people are needed to operate the shear',
+options : ['A. one is the operator, the other is the teacher.','B. the operator is responsible for informing the teacher when cuts are to be made.','C. it is only the operator who steps on the foot pedal.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '8. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '9. Never operate any tool without the appropriate guard in place.',
+options : ['A. True','B. False','PORTABLE DRILL'],
+answer : ['#######']
+},
+{
+label : '1. Teacher permission is required before using the portable drill.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. Eye protection must be worn when using the portable drill.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Disconnect the power before changing the bit in a portable drill.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. Remove the chuck key immediately after using it.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Make sure that the switch is in the _____ position before plugging the drill in.',
+options : ['A. off','B. on'],
+answer : ['#######']
+},
+{
+label : '6. When using the portable drill, all work pieces must be',
+options : ['A. securely clamped or held in a vice.','B. nailed to the floor.','C. glued to the table.','D. none of the above.'],
+answer : ['#######']
+},
+{
+label : '7. Hold the portable drill firmly at all times.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '8. If a work piece is caught by the drill',
+options : ['A. stop it with your hands.','B. insert the chuck key immediately.','C. release the trigger switch.','D. all of the above statements are correct.'],
+answer : ['#######']
+},
+{
+label : '9. To prevent accidents while using the portable drill, you should',
+options : ['A. apply steady, straight pressure on the drill.','B. ease up on the pressure when the drill bit begins to break through the metal.','C. turn off the power and hold the drill until it comes to a dead stop.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '10. Large drills should turn at slow speeds.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. _______________ may cause accidents around machinery.',
+options : ['A. Unsecured long hair','B. Loose clothing','C. Loose jewelry','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '12. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '1. Procedures to follow before actually using the drill press should include:',
+options : ['A. obtaining teacher permission.','B. securing the work piece.','C. wearing proper eye protection.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '2. Adjustments must be made with the machine at a dead stop except for the variable which must be set with the machine running.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Remove the chuck key immediately after using it.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. If a work piece is caught by the drill',
+options : ['A. stop it with your hands.','B. adjust the depth gauge.','C. step back and turn off power.','D. lower the table.'],
+answer : ['#######']
+},
+{
+label : '5. Large drills turn at slow speeds.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '6. Any special operation requires',
+options : ['A. special equipment.','B. special instruction.','C. teacher supervision.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '7. The drill press table should be locked in place.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '8. __________ must be kept away from moving parts.',
+options : ['A. Hair and hands','B. Loose clothing','C. Jewelry','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '9. Be sure that the drill bit is sharp.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '10. In order to prevent the drill bit from binding or grabbing:',
+options : ['A. ease up on the feed pressure when the bit starts to break through the material.','B. insert the chuck key in the chuck.','C. lower the table.','D. any of the above.'],
+answer : ['#######']
+},
+{
+label : '11. To remove a burr use',
+options : ['A. a large drill.','B. deburring tool.','C. countersink.','D. any of the above.'],
+answer : ['#######']
+},
+{
+label : '12. When the machine is at a dead stop use ________ to remove chips and shavings.',
+options : ['A. hands','B. cloth','C. brush','D. welders gloves'],
+answer : ['#######']
+},
+{
+label : '13. When finished,',
+options : ['A. wait for the bit to come to a dead stop.','B. remove the drill bit and chuck key.','C. clean up the area.','D. all of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '14. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '1. The first thing to do before gas welding is',
+options : ['A. turn on the gas.','B. light the torch.','C. get teacher permission.','D. heat the metal.'],
+answer : ['#######']
+},
+{
+label : '2. Welding equipment must be kept clean of grease and oil.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Oxy-acetylene welding goggles must be worn over safety glasses when gas cutting or welding.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. It is important to keep sparks and flame away from cylinders and hoses.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Which valve is closed first when turning off the torch?',
+options : ['A. air','B. acetylene','C. oxygen','D. it doesn't make any difference.'],
+answer : ['#######']
+},
+{
+label : '6. Extreme caution must be used when moving portable carts because',
+options : ['A. the safety chain may not be secured.','B. you may be moving into a flammable material area.','C. a broken compressed gas bottle can become a rocket.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '7. If a leak is noted in a connection or tank',
+options : ['A. pay no attention, no harm will be done.','B. report to instructor immediately.','C. tell classmates.','D. go tell the custodian.'],
+answer : ['#######']
+},
+{
+label : '8. Which of the following must be kept away from the work area?',
+options : ['A. oil and grease','B. combustibles and flammable liquids','C. other students without properly shaded lens protection','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '9. Always release regulator pressure screws before',
+options : ['A. opening cylinder valves.','B. lighting the torch.','C. using the friction lighter.','D. none of the above.'],
+answer : ['#######']
+},
+{
+label : '10. Open the acetylene cylinder valve 1/4 to 1/2 turn.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. Cooling hot metal in water can cause __________ burns.',
+options : ['A. sun','B. ultraviolet','C. steam','D. floor'],
+answer : ['#######']
+},
+{
+label : '12. To light a torch use a friction lighter only.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '13. Always point the torch',
+options : ['A. toward the ceiling.','B. toward the door.','C. any direction that is convenient.','D. away from you and others.'],
+answer : ['#######']
+},
+{
+label : '14. When the cylinder is equipped with a wrench, it must be in place for emergency shut off.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '15. Welding galvanized items must not be done without special supervision.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '16. To safely operate cylinder valves, turn on slowly and stand to one side.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '17. Acetylene pressure must be kept below',
+options : ['A. 6 kilograms per square centimeter.','B. 10 milliamps per second.','C. 15 p.s.i.','D. none of the above.'],
+answer : ['#######']
+},
+{
+label : '18. Closed containers are hazardous to weld or repair.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '19. Material being cut on concrete floors can cause the floor to explode.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '20. Always consider metal found in the welding area to be hot.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '21. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '22. To avoid breathing fumes, make sure the ventilation system is working.',
+options : ['A. True','B. False','ELECTRIC ARC WELDING'],
+answer : ['#######']
+},
+{
+label : '1. The first thing to do before starting to arc weld is',
+options : ['A. turn on power.','B. install rod.','C. strike an arc.','D. get permission from the teacher.'],
+answer : ['#######']
+},
+{
+label : '2. To protect others in the immediate area always weld',
+options : ['A. in the shower room.','B. in the welding booth or protected area (barrier shields).','C. outside in the rain.','D. all the above.'],
+answer : ['#######']
+},
+{
+label : '3. Use pliers or similar tool, not gloves, for picking up hot metal.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. Turn off the welder if it is necessary to change the position of the work.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Which of the following must be kept away from the welding area?',
+options : ['A. hot metal.','B. cold metal.','C. welding electrodes.','D. combustible material and flammable liquids.'],
+answer : ['#######']
+},
+{
+label : '6. Under what condition is it dangerous to weld?',
+options : ['A. dry, dusty floor.','B. wet floor.','C. cold room.','D. there is never any danger.'],
+answer : ['#######']
+},
+{
+label : '7. Which of the following special protective clothing is needed while welding?',
+options : ['A. A helmet with at least a number 10 shaded lens.','B. Long sleeve coat.','C. Leather leggings.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '8. Warn others before you strike the arc.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '9. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '10. Avoid steam burns when quenching hot metal by keeping exposed skin well away from quenching water.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. You are not permitted to weld on fuel tanks, cans or barrels without instructor approval.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '12. Wearing of contact lenses while arc welding is prohibited.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '13. Report any malfunction of a machine to your instructor such as:',
+options : ['A. Hot leads.','B. Electric short.','C. Unusual noises.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '14. Electrical shock can happen if an arc occurs between',
+options : ['A. electrode holder.','B. ground clamp.','C. table.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '1. Before using the foundry:',
+options : ['A. Obtain teacher permission and supervision.','B. Wear proper eye protection.','C. Wear proper protective clothing.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '2. Always treat crucibles, flasks, castings, and other equipment as if they were hot.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Wear proper protective clothing when handling molten metal (face shield and helmet, apron, leggings, and gloves).',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. Important steps taken by the instructor before lighting furnace include:',
+options : ['A. Opening lid.','B. Purging with air.','C. Removing flammables from the area.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '5. When adding metal to a hot crucible it should be preheated',
+options : ['A. to move moisture.','B. to raise temperature.','C. to remove paint (in painted).','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '6. Skimmer or ladle must be preheated before using.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. Explosions can be caused by:',
+options : ['A. molten metal hitting concrete floors.','B. molten metal in contact with water.','C. lighting the furnace with the lid closed.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '8. Prevent accidents by:',
+options : ['A. Not looking into the pour.','B. Walking forward when carrying molten metal.','C. Carrying molten metal as close to the floor as possible.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '9. Before removing crucible',
+options : ['A. shut off furnace.','B. lock tongs to crucible.','C. make sure mold is placed on grates or over sand pit.','D. pouring shank should be in place.'],
+answer : ['#######']
+},
+{
+label : '10. Lock crucible to pouring shank before pouring.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. Casting may be removed from the flask after cooling (a minimum of 10',
+options : ['minutes for small casting) with:','A. Pliers.','B. Tongs.','C. Vise Grips.'],
+answer : ['#######']
+},
+{
+label : '12. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '13. Never look into the pour while pouring.',
+options : ['A. True','B. False','GAS FORGE'],
+answer : ['#######']
+},
+{
+label : '1. Before you operate the gas forge you must',
+options : ['A. obtain permission from the teacher.','B. pass the safety test on the gas forge.','C. wear eye protection.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '2. The lid to the gas forge must be open before lighting it.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Always ____________________ the gas forge before lighting it.',
+options : ['A. walk away from','B. purge','C. replace the firebox in','D. insert the air control in'],
+answer : ['#######']
+},
+{
+label : '4. Hot metal left unattended should be marked __________ with chalk.',
+options : ['A. with an "x"','B. with your name','C. "hot"','D. none of the above'],
+answer : ['#######']
+},
+{
+label : '5. When working with the gas forge you should',
+options : ['A. consider all metal and tongs as hot.','B. wear leather gloves.','C. use tongs to handle hot metal.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '6. A container of water near the forge is used to',
+options : ['A. cool hot metal.','B. water the flowers.','C. provide air conditioning.','D. none of the above.'],
+answer : ['#######']
+},
+{
+label : '7. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '8. Avoid steam burns when quenching hot metal by keep exposed skin well away from quenching water.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '9. Which of the following must be worn over your safety glasses while operating the gas forge?',
+options : ['A. Sun glasses.','B. A welder's hat.','C. A sun visor.','D. Metal screen face shield.'],
+answer : ['#######']
+},
+{
+label : '10. Hammering on the anvil should only be done when forging material.',
+options : ['A. True','B. False','BENCH GRINDER/BELT GRINDER'],
+answer : ['#######']
+},
+{
+label : '1. Before operating the grinder you must',
+options : ['A. get permission from the instructor.','B. wear eye protection.','C. make sure the toll rest is properly adjusted.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '2. The tool rest is properly adjusted when it is',
+options : ['A. completely removed from the grinder.','B. 2" to 3" away from the belt or wheel.','C. 1/16" to 1/8" away from the belt or wheel.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '3. The tongue guard is properly adjusted when it is ______ away from the grinding wheel.',
+options : ['A. 1/16"','B. 1/8"','C. 1/4"','D. 1/2"'],
+answer : ['#######']
+},
+{
+label : '4. Safety shields must be in place before operating the grinder.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Jamming the work pie e into the belt or wheel could damage the grinder and result in serious injury to persons near the machine.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '6. When operating the grinder, you should',
+options : ['A. be the only operator at that time.','B. use steady, even pressure which does not slow down the motor.','C. grind below the horizontal axis on the belt.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '7. When using the grinder, always',
+options : ['A. hold the work piece firmly against the tool rest.','B. keep unsecured long hair, loose clothing, and accessories away from the wheel or belt.','C. use the front of the wheel, not the side.','D. all of the above.'],
+answer : ['#######']
+},
+{
+label : '8. Never hold the work piece with a rag or materials which may become entangled in the grinder.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '9. Applying excessive pressure on the belt or wheel could cause it to break.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '10. The tool rest should be adjusted only with the grinder at a dead stop.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '12. Cracked or damaged grinding wheels must never be used.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '13. The inspection of the grinding belt or wheels should be done',
+options : ['A. while the machine is running.','B. before you start.','C. at no time.','D. all of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '1. Teacher permission is required before using the buffer.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. Eye protection must be worn while operating the buffer.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. When operating the buffer, you must,',
+options : ['A. Be the only operator at that time.','B. Use steady, even pressure which does not slow down the motor.','C. Buff on the front down side of the wheel only.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '4. Never hold the work piece with a rag or materials which may become entangled in the buffer.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. When using the buffer, always,',
+options : ['A. Hold the work piece firmly with both hands.','B. Keep unsecured long hair, loose clothing and accessories away from the buffing wheel.','C. Avoid applying excessive pressure.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '6. Points and sharp edges should be held away from the buffing wheel or down at all times.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. If you are uncertain about any aspect of the operation you should,',
+options : ['A. Go ahead and try the operation.','B. Check with your teacher before proceeding.','C. Call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '8. Students should never let themselves be distracted when working on the buffer.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '9. It is safer to stand to the side of the wheel and buff than to stand in front and buff.',
+options : ['A. True','B. False','Metal Tst 081000.doc','Beaverton School District #48 -10b-'],
+answer : ['#######']
+},
+{
+label : '10. Students should never double team on one buffing station.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. When operating the buffer, always,',
+options : ['A. Make certain the wheel guards are in place,','B. Apply polishing compound sparingly','C. Keep hands away from the wheel.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '12. When operation is finished, turn the power off and stay with the machine.',
+options : ['A. True','B. False','BANDSAW','(VERTICAL AND HORIZONTAL)'],
+answer : ['#######']
+},
+{
+label : '1. Teacher permission is required before using the bandsaw.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. Eye protection must be worn when working around the bandsaw.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Adjustments must be made with the machine at a dead stop.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. Before starting',
+options : ['A. adjust the guard to within 1/8 inch of your work.','B. plan to avoid backing out of a kerf.','C. make relief cuts if necessary.','D. All of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '5. Use a push stick, special "v" jig, or holding device if your fingers will come closer than ______ inches to the blade.',
+options : ['A. 1/4','B. 3','C. 16','D. 2'],
+answer : ['#######']
+},
+{
+label : '6. When cutting unusual pieces of metal, you should',
+options : ['A. clamp it securely.','B. have the teacher check your set-up.','C. hold the work piece on either side of the cutting line.','D. All the above are correct.'],
+answer : ['#######']
+},
+{
+label : '7. No one should stand on the right side of the bandsaw because',
+options : ['A. the lighting is better.','B. you can feed the stock faster.','C. should a blade break, pieces may fly in that direction.','D. both A and B are faster.'],
+answer : ['#######']
+},
+{
+label : '8. When using the horizontal bandsaw, you should make sure that',
+options : ['A. the coolant does not spill on the floor.','B. the coolant is flowing over the band at the saw kerf.','C. you don't hold onto short pieces that are being cut off.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '9. If the blade breaks, shut off the machine and call the teacher.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '10. When finished cutting,',
+options : ['A. turn the machine off.','B. brake the machine to a stop.','C. clean the floor of coolant, chips, and small pieces of metal.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '11. Be careful not to crowd, cramp, twist, or bend the saw blade.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '12. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '13. When clearing your machine of metal chips or handling a freshly cut piece of metal you should',
+options : ['A. avoid sharp edges that can cut.','B. never use your bare hands.','C. clean your machine with a brush.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '1. Teacher permission is required before using the metal lathe.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. Eye protection must be worn when working around the metal lathe.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Adjustments must be made with the machine at a dead stop except',
+options : ['A. variable speed which must be set with machine running.','B. when taking work from between centers.','C. when removing chuck from head stock.','D. both B and C above.'],
+answer : ['#######']
+},
+{
+label : '4. When changing a chuck use',
+options : ['A. a board to help prevent smashed fingers.','B. a wood block under it to prevent damage to the ways.','C. A and B are correct.','D. None of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '5. The chuck key must be removed immediately after using it.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '6. Attached chips are sharp and can cause injury.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. To remove chips, use a brush, not compressed air.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '8. Irregular shapes take',
+options : ['A. special setup.','B. special equipment.','C. teacher supervision.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '9. The depth of cut us regulated by',
+options : ['A. size of metal.','B. type of metal.','C. both size and type of metal.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '10. It is necessary to secure work firmly in chuck or between centers.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. The tool bit should be ground properly and set on center before starting the lathe.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '12. Keep hands away from all chips and revolving parts.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '13. Do not measure stock while it is rotating.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '14. The chuck should be turned by hand before starting.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '15. Remove jewelry, eliminate loose clothing, and secure long hair before operating the metal lathe.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '16. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '17. Chatter indicates something is wrong. Stop machine and check setup, tool bit, etc.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '18. Allow machine to reach a dead stop before reversing rotation.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '19. Use extreme caution when removing tool holder and tool post for filing and polishing.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '20. Have your teacher check the speed setting before starting the operation.',
+options : ['A. True','B. False','MILLING MACHINES'],
+answer : ['#######']
+},
+{
+label : '1. The first item of procedure to operate the milling machine is',
+options : ['A. secure work piece.','B. set cutting speed.','C. turn on power.','D. obtain teacher permission.'],
+answer : ['#######']
+},
+{
+label : '2. Eye protection must be worn when working around the milling machine.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Make adjustments or set-ups only when',
+options : ['A. you have permission.','B. you have read and understand safety rules.','C. the machine is at a dead stop.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '4. Remove spindle wrench immediately after securing bit in collet.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Which of the items below could be used to securely fasten your work piece?',
+options : ['A. a vice.','B. Clamps.','C. Indexing head.','D. Step blocks.'],
+answer : ['#######']
+},
+{
+label : '6. Milling machine cutters are sharp and must be handled carefully.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. When machine is at a dead stop, chips should be remove with',
+options : ['A. hand.','B. cloth','C. brush','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '8. After you are finished using the milling machine, you should',
+options : ['A. turn off the power.','B. brake the machine to a dead stop.','C. remove cutter.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '9. Never clean chips away from cutter while machine is running.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '10. Keep fingers at least 6" away from the cutter.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. Check and set the proper speed, feed, and depth of cut before starting the milling machine.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '12. Floor around the milling machine should be kept clean.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '13. Chip shield should be between you and the work piece while cutting.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '14. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '15. Besides improper placement of your hands, which of the following is a possible cause of accidents around the sander?',
+options : ['A. unsecured long hair.','B. loose clothing.','C. jewelry.','D. All of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '16. A face shield should also be worn when operating the disc grinder.',
+options : ['A. True','B. False','PORTABLE DISC GRINDER'],
+answer : ['#######']
+},
+{
+label : '1. The first item of procedure to operate the portable disc grinder is',
+options : ['A. secure the work.','B. plug in the machine.','C. obtain teacher permission.','D. turn on the power.'],
+answer : ['#######']
+},
+{
+label : '2. Eye protection must be worn when operating the portable disc grinder.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. Before operating the portable disc grinder',
+options : ['A. be sure observers are a safe distance away.','B. tie back long hair, secure loose clothing, and remove accessories.','C. secure work firmly.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '4. Make sure switch is in the "off" position before plugging it into the power source.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Never operate the portable disc grinder',
+options : ['A. damp or wet locations.','B. in a position which may cause the disc to come in contact with the','electrical cord.','C. in a manner which slows disc excessively.'],
+answer : ['#######']
+},
+{
+label : '6. Hold the portable disc grinder firmly with both hands while operating.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. If you are uncertain about the set-up or any aspect of the operation, you must',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '8. Unplug the grinder before changing the disc or wheel.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '9. Don't overload the portable grinder since that might cause the disc to shatter. It will do the job better and safer at full speed.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '10. Beside improper placement of your hands, which of the following is a possible cause of accidents around the sander?',
+options : ['A. unsecured long hair','B. loose clothing','C. jewelry','D. All of the above are correct.'],
+answer : ['#######']
+},
+{
+label : '11. Never allow sparks to fly toward flammable liquids or combustible material such as cardboard, rags, unsecured long hair and flammable liquids.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '12. A face shield should also be worn when operating the disc grinder.',
+options : ['A. True','B. False','METAL CUT-OFF SAW','(ABRASIVE CHOP-SAW)'],
+answer : ['#######']
+},
+{
+label : '1. Teacher permission is required before using the metal cut-off saw.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. Proper eye safety consists of safety glasses with side shields and face shield.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '3. What must be done with the metal cut-off saw at a dead stop?',
+options : ['A. adjustments','B. measurements','C. all clamping','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '4. It is desirable to test a new cut-off wheel for cracks by using the ring test before mounting.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Blotters are necessary between wheel and flanges because',
+options : ['A. the wheel is held more firmly.','B. the wheel is in better alignment.','C. the blotters absorb shock better than steel.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '6. Tightening of flanges of unequal diameter may cause',
+options : ['A. the wheel to cup.','B. the wheel to warp.','C. the wheel to become misaligned.','D. the wheel to break.'],
+answer : ['#######']
+},
+{
+label : '7. Tighten the spindle nut carefully. The wheel can be broken by over tightening.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '8. Allow the blade to reach __________ speed before starting the cut.',
+options : ['A. half','B. two-thirds','C. full','D. three-fourths'],
+answer : ['#######']
+},
+{
+label : '9. Crowding the machine beyond its capacity can cause',
+options : ['A. overheating.','B. breakage.','C. irregular cuts.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '10. Keep floor area around the metal cut-off saw',
+options : ['A. clear of scraps.','B. cleaned of coolant spills.','C. clear of unused materials.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '11. If you are uncertain about the set-up or any aspect of the operation, you must',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '1. Dressing the wheel with the diamond point dresser as needed prevents the wheel from',
+options : ['A. becoming glazed.','B. becoming loaded.','C. coming off.','D. both A and B above.'],
+answer : ['#######']
+},
+{
+label : '2. The machine must be at a dead stop in order to',
+options : ['A. make adjustments (other than depth of cut).','B. make measurements.','C. check wheel surface.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '3. Your instructor needs to check all setups.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '4. Permanent damage to the wheel may result form',
+options : ['A. jamming work into wheel.','B. operating wheel above the recommended r.p.m.','C. over-tightening spindle.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '5. Cracked or damaged wheels are dangerous and must never be used on the surface or tool grinder because',
+options : ['A. they may fly apart.','B. they may vibrate excessively and break up.','C. they can only be used to take very light cuts.','D. both A and B above.'],
+answer : ['#######']
+},
+{
+label : '6. The work piece must be held solidly in or on the chucking device.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. It is permissible to lay tools on this machine.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '8. When holding work piece on magnetic chuck, the base should be',
+options : ['A. one half the height.','B. as wide as the height.','C. four or more times as wide as the piece is tall.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '9. If you are uncertain about the set-up or any aspect of the operation, you must',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '10. Long hair, loose clothing and jewelry can be the cause of accidents around machinery.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. Disengage manual controls before using automatic or power feed.',
+options : ['A. True','B. False','GAS ARC WELDING','(TIG AND MIG)'],
+answer : ['#######']
+},
+{
+label : '1. Teacher permission is required before using the gas arc welder',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '2. A welding helmet with a shade 12 or shade 14 lens must be used when gas arc welding because',
+options : ['A. the rays are weaker than regular arc.','B. the rays are as strong as regular arc.','C. the rays are twice as strong as regular arc.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '3. Skin areas not covered with proper protective clothing while gas arc welding may be',
+options : ['A. unaffected.','B. burned (as sunburn).','C. wrinkled.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '4. Do not use welder if floor is wet or damp. Report any water leaks to your teacher.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '5. Flammables such as __________ must be removed from the welding area.',
+options : ['A. synthetic clothing','B. matches, lighters','C. Rags, cardboard','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '6. Never weld on fuel tanks or cans.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '7. Some gas mixtures contain oxygen which self combusts with',
+options : ['A. oil and grease.','B. barrier shields.','C. arc flashes.','D. None of the above. TURN PAGE . . . Metal Tst 081000.doc'],
+answer : ['#######']
+},
+{
+label : '8. Use the proper connections for connecting regulators and hoses to the cylinder. They will vary according to the __________ of gas used.',
+options : ['A. type','B. color','C. smell','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '9. An operator should make certain that the regulator pressure screw is released or that the flowmeter valve is closed before opening the cylinder valve because it is',
+options : ['A. a shortcut.','B. essential to the operator's safety.','C. essential to the equipment's operation and longevity.','D. B and C above.'],
+answer : ['#######']
+},
+{
+label : '10. Care should be taken to never have a common ground on MIG and TIG units.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '11. Make certain that the gas cylinder is chained or secured; screw on bottle cap for storage or moving.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '12. Report any malfunction of the machine to __________.',
+options : ['A. counselor','B. custodian','C. foreman','D. teacher'],
+answer : ['#######']
+},
+{
+label : '13. You should always warn others before you strike the arc.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '14. Using a barrier shield prevents the arc',
+options : ['A. from working.','B. from flashing into others' eyes.','C. from firing.'],
+answer : ['#######']
+},
+{
+label : '15. Always use pliers or tongs for handling hot materials.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '16. Treat all metal, tools, tables, and equipment as if they were hot.',
+options : ['A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '17. When finished',
+options : ['A. close cylinder valve.','B. shut off water and electricity.','C. return all equipment and clean up area.','D. All of the above.'],
+answer : ['#######']
+},
+{
+label : '18. If you are uncertain about the set-up or any aspect of the operation, you must',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['#######']
+},
+{
+label : '19. To avoid unnecessary electrical short circuits hang up gun or torch; do not lay on table, work piece, or machine.',
+options : ['20. Avoid steam burns when quenching hot metal by keeping exposed skin well away from quenching water.','A. True','B. False'],
+answer : ['#######']
+},
+{
+label : '21. Hot metal left unattended must be marked "HOT" with chalk.',
+options : ['A. True','B. False'

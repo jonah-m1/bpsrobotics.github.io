@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Bandsaw Vertical/Horizontal</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - Bandsaw Vertical/Horizontal</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect answers:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+	var el = new Element('p') ;
+	el.set('html', '<a href="index.html">Click here to return to the start.</a>');
+	$('result').adopt(el);
+
+}
+// Test Questions
+var questions = [
+{
+label : '1. Teacher permission is required before using the bandsaw.',
+options : ['A. True','B. False'],
+answer : ['A. True']
+},
+{
+label : '2. Eye protection must be worn when working around the bandsaw.',
+options : ['A. True','B. False'],
+answer : ['A. True']
+},
+{
+label : '3. Adjustments must be made with the machine at a dead stop.',
+options : ['A. True','B. False'],
+answer : ['A. True']
+},
+{
+label : '4. Before starting',
+options : ['A. adjust the guard to within 1/8 inch of your work.','B. plan to avoid backing out of a kerf.','C. make relief cuts if necessary.','D. All of the above are correct.'],
+answer : ['D. All of the above are correct.']
+},
+{
+label : '5. Use a push stick, special "v" jig, or holding device if your fingers will come closer than ______ inches to the blade.',
+options : ['A. 1/4','B. 3','C. 16','D. 2'],
+answer : ['D. 2']
+},
+{
+label : '6. When cutting unusual pieces of metal, you should',
+options : ['A. clamp it securely.','B. have the teacher check your set-up.','C. hold the work piece on either side of the cutting line.','D. All the above are correct.'],
+answer : ['B. have the teacher check your set-up.']
+},
+{
+label : '7. No one should stand on the right side of the bandsaw because',
+options : ['A. the lighting is better.','B. you can feed the stock faster.','C. should a blade break, pieces may fly in that direction.','D. both A and B are faster.'],
+answer : ['C. should a blade break, pieces may fly in that direction.']
+},
+{
+label : '8. When using the horizontal bandsaw, you should make sure that',
+options : ['A. the coolant does not spill on the floor.','B. the coolant is flowing over the band at the saw kerf.','C. you dont hold onto short pieces that are being cut off.','D. All of the above.'],
+answer : ['A. the coolant does not spill on the floor.']
+},
+{
+label : '9. If the blade breaks, shut off the machine and call the teacher.',
+options : ['A. True','B. False'],
+answer : ['A. True']
+},
+{
+label : '10. When finished cutting,',
+options : ['A. turn the machine off.','B. brake the machine to a stop.','C. clean the floor of coolant, chips, and small pieces of metal.','D. All of the above.'],
+answer : ['D. All of the above.']
+},
+{
+label : '11. Be careful not to crowd, cramp, twist, or bend the saw blade.',
+options : ['A. True','B. False'],
+answer : ['A. True']
+},
+{
+label : '12. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['B. check with your teacher before proceeding.']
+},
+{
+label : '13. When clearing your machine of metal chips or handling a freshly cut piece of metal you should',
+options : ['A. avoid sharp edges that can cut.','B. never use your bare hands.','C. clean your machine with a brush.','D. All of the above.'],
+answer : ['D. All of the above.']
+},
+
+
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>

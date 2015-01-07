@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Electric Arc Welding</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - Electric Arc Welding</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect answers:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+	var el = new Element('p') ;
+	el.set('html', '<a href="index.html">Click here to return to the start.</a>');
+	$('result').adopt(el);
+
+}
+// Test Questions
+var questions = [
+{
+
+label : '1. The first thing to do before starting to arc weld is',
+
+options : ['A. turn on power.',
+'B. install rod.',
+'C. strike an arc.',
+'D. get permission from the teacher.'],
+
+answer : ['D. get permission from the teacher.']
+
+},
+
+{
+
+label : '2. To protect others in the immediate area always weld',
+
+options : ['A. in the shower room.',
+'B. in the welding booth or protected area (barrier shields).',
+'C. outside in the rain.',
+'D. all the above.'],
+
+answer : ['B. in the welding booth or protected area (barrier shields).']
+
+},
+
+{
+
+label : '3. Use pliers or similar tool, not gloves, for picking up hot metal.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '4. Turn off the welder if it is necessary to change the position of the work.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '5. Which of the following must be kept away from the welding area?',
+
+options : ['A. hot metal.','B. cold metal.','C. welding electrodes.','D. combustible material and flammable liquids.'],
+
+answer : ['D. combustible material and flammable liquids.']
+
+},
+
+{
+
+label : '6. Under what condition is it dangerous to weld?',
+
+options : ['A. dry, dusty floor.','B. wet floor.','C. cold room.','D. there is never any danger.'],
+
+answer : ['B. wet floor.']
+
+},
+
+{
+
+label : '7. Which of the following special protective clothing is needed while welding?',
+
+options : ['A. A helmet with at least a number 10 shaded lens.','B. Long sleeve coat.','C. Leather leggings.','D. All of the above.'],
+
+answer : ['D. All of the above.']
+
+},
+
+{
+
+label : '8. Warn others before you strike the arc.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '9. If you are uncertain about the set-up or any aspect of the operation, you should',
+
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+
+answer : ['B. check with your teacher before proceeding.']
+
+},
+
+{
+
+label : '10. Avoid steam burns when quenching hot metal by keeping exposed skin well away from quenching water.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '11. You are not permitted to weld on fuel tanks, cans or barrels without instructor approval.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '12. Wearing of contact lenses while arc welding is prohibited.',
+
+options : ['A. True','B. False'],
+
+answer : ['A. True']
+
+},
+
+{
+
+label : '13. Report any malfunction of a machine to your instructor such as:',
+
+options : ['A. Hot leads.','B. Electric short.','C. Unusual noises.','D. All of the above.'],
+
+answer : ['D. All of the above.']
+
+},
+
+{
+
+label : '14. Electrical shock can happen if an arc occurs between',
+
+options : ['A. electrode holder.','B. ground clamp.','C. table.','D. all of the above.'],
+
+answer : ['D. all of the above.']
+
+},
+
+
+
+
+
+
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>

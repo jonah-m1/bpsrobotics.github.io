@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Metal Cut-off Saw</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - Metal Cut-off Saw</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect answers:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+	var el = new Element('p') ;
+el.set('html', '<a href="index.html">Click here to return to the start.</a>');
+$('result').adopt(el);
+
+}
+// Test Questions
+var questions = [
+{
+label : '1. Teacher permission is required before using the metal cut-off saw.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '2. Proper eye safety consists of safety glasses with side shields and face shield.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '3. What must be done with the metal cut-off saw at a dead stop?',
+options : ['A. adjustments','B. measurements','C. all clamping','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '4. It is desirable to test a new cut-off wheel for cracks by using the ring test before mounting.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '5. Blotters are necessary between wheel and flanges because',
+options : ['A. the wheel is held more firmly.','B. the wheel is in better alignment.','C. the blotters absorb shock better than steel.','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '6. Tightening of flanges of unequal diameter may cause',
+options : ['A. the wheel to cup.','B. the wheel to warp.','C. the wheel to become misaligned.','D. the wheel to break.'],
+answer : ['D. the wheel to break.'],
+forceAnswer : true
+},
+{
+label : '7. Tighten the spindle nut carefully. The wheel can be broken by over tightening.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '8. Allow the blade to reach __________ speed before starting the cut.',
+options : ['A. half','B. two-thirds','C. full','D. three-fourths'],
+answer : ['C. full'],
+forceAnswer : true
+},
+{
+label : '9. Crowding the machine beyond its capacity can cause',
+options : ['A. overheating.','B. breakage.','C. irregular cuts.','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '10. Keep floor area around the metal cut-off saw',
+options : ['A. clear of scraps.','B. cleaned of coolant spills.','C. clear of unused materials.','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '11. If you are uncertain about the set-up or any aspect of the operation, you must',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['B. check with your teacher before proceeding.'],
+forceAnswer : true
+},
+
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>

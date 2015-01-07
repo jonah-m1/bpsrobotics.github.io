@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>PORTABLE DISC GRINDER</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - PORTABLE DISC GRINDER</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect answers:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+var el = new Element('p') ;
+el.set('html', '<a href="index.html">Click here to return to the start.</a>');
+$('result').adopt(el);
+}
+// Test Questions
+var questions = [
+{
+label : '1. The first item of procedure to operate the portable disc grinder is',
+options : ['A. secure the work.','B. plug in the machine.','C. obtain teacher permission.','D. turn on the power.'],
+answer : ['C. obtain teacher permission.'],
+forceAnswer : true
+},
+{
+label : '2. Eye protection must be worn when operating the portable disc grinder.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '3. Before operating the portable disc grinder',
+options : ['A. be sure observers are a safe distance away.','B. tie back long hair, secure loose clothing, and remove accessories.','C. secure work firmly.','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '4. Make sure switch is in the "off" position before plugging it into the power source.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '5. Never operate the portable disc grinder',
+options : ['A. damp or wet locations.','B. in a position which may cause the disc to come in contact with the','electrical cord.','C. in a manner which slows disc excessively.','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '6. Hold the portable disc grinder firmly with both hands while operating.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '7. If you are uncertain about the set-up or any aspect of the operation, you must',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['B. check with your teacher before proceeding.'],
+forceAnswer : true
+},
+{
+label : '8. Unplug the grinder before changing the disc or wheel.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '9. Dont overload the portable grinder since that might cause the disc to shatter. It will do the job better and safer at full speed.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '10. Beside improper placement of your hands, which of the following is a possible cause of accidents around the sander?',
+options : ['A. unsecured long hair','B. loose clothing','C. jewelry','D. All of the above are correct.'],
+answer : ['D. All of the above are correct.'],
+forceAnswer : true
+},
+{
+label : '11. Never allow sparks to fly toward flammable liquids or combustible material such as cardboard, rags, unsecured long hair and flammable liquids.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '12. A face shield should also be worn when operating the disc grinder.',
+options : ['A. True','B. False','METAL CUT-OFF SAW','(ABRASIVE CHOP-SAW)'],
+answer : ['A. True'],
+forceAnswer : true
+},
+
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>

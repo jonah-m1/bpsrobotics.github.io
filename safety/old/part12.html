@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Milling Machines</title>
+<script type="text/javascript" src="js/external/mootools-1.2.4-core-yc.js"></script>
+<script type="text/javascript" src="js/dg-count-down.js"></script>
+<script type="text/javascript" src="js/dg-quiz-maker.js"></script>
+<style type="text/css">
+body {
+	font-family: 'Trebuchet MS', 'Helvetica'
+}
+
+.dg-question-label{ /* Question label */
+	font-weight:bold;
+}
+
+img{
+	border:0px;
+}
+#error {
+	font-style:italic;
+	color:red;
+}
+</style>
+</head>
+<body>
+
+<font size=5>Metal Shop Safety Test - Milling Machines</font><br />
+<font size=3>BPS Robotics</font><br />
+<br />
+<br />
+<br />
+
+<div id="questions"></div>
+<div id="error"></div>
+<div id="result"></div>
+<script type="text/javascript">
+
+function showScore() {
+	var score = quizMaker.getScore();
+
+	var el = new Element('h3');
+	el.set('html', 'Thank you!');
+	$('result').adopt(el);
+
+	var el = new Element('h4');
+	el.set('html', 'Score: ' + score.numCorrectAnswers + ' of ' + score.numQuestions);
+	$('result').adopt(el);
+
+	if(score.incorrectAnswers.length > 0) {
+		var el = new Element('h4');
+		el.set('html', 'Incorrect answers:');
+		$('result').adopt(el);
+
+		for(var i=0;i<score.incorrectAnswers.length;i++) {
+			var incorrectAnswer = score.incorrectAnswers[i];
+			var el = new Element('div');
+			el.set('html', '<b>' +  incorrectAnswer.questionNumber + ': ' + incorrectAnswer.label + '</b>');
+			$('result').adopt(el);
+			//var el = new Element('div');
+			//el.set('html', 'Correct answer : ' + incorrectAnswer.correctAnswer);
+			//$('result').adopt(el);
+			var el = new Element('div');
+			el.set('html', 'Your answer : ' + incorrectAnswer.userAnswer);
+			$('result').adopt(el);
+
+		}
+	}
+
+}
+// Test Questions
+var questions = [
+{
+label : '1. The first item of procedure to operate the milling machine is',
+options : ['A. secure work piece.','B. set cutting speed.','C. turn on power.','D. obtain teacher permission.'],
+answer : ['D. obtain teacher permission.'],
+forceAnswer : true
+},
+{
+label : '2. Eye protection must be worn when working around the milling machine.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '3. Make adjustments or set-ups only when',
+options : ['A. you have permission.','B. you have read and understand safety rules.','C. the machine is at a dead stop.','D. All of the above.'],
+answer : ['A. you have permission.'],
+forceAnswer : true
+},
+{
+label : '4. Remove spindle wrench immediately after securing bit in collet.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '5. Which of the items below could be used to securely fasten your work piece?',
+options : ['A. a vice.','B. Clamps.','C. Indexing head.','D. Step blocks.'],
+answer : ['A. a vice.'],
+forceAnswer : true
+},
+{
+label : '6. Milling machine cutters are sharp and must be handled carefully.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '7. When machine is at a dead stop, chips should be remove with',
+options : ['A. hand.','B. cloth','C. brush','D. None of the above.'],
+answer : ['A. hand.'],
+forceAnswer : true
+},
+{
+label : '8. After you are finished using the milling machine, you should',
+options : ['A. turn off the power.','B. brake the machine to a dead stop.','C. remove cutter.','D. All of the above.'],
+answer : ['D. All of the above.'],
+forceAnswer : true
+},
+{
+label : '9. Never clean chips away from cutter while machine is running.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '10. Keep fingers at least 6" away from the cutter.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '11. Check and set the proper speed, feed, and depth of cut before starting the milling machine.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '12. Floor around the milling machine should be kept clean.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '13. Chip shield should be between you and the work piece while cutting.',
+options : ['A. True','B. False'],
+answer : ['A. True'],
+forceAnswer : true
+},
+{
+label : '14. If you are uncertain about the set-up or any aspect of the operation, you should',
+options : ['A. go ahead and try the operation.','B. check with your teacher before proceeding.','C. call the machine manufacturer.','D. None of the above.'],
+answer : ['B. check with your teacher before proceeding.'],
+forceAnswer : true
+},
+
+]
+
+function showAnswerAlert() {
+	$('error').set('html', 'You have to answer before you continue to the next question');
+}
+function clearErrorBox() {
+	$('error').set('html','');
+}
+var quizMaker = new DG.QuizMaker({
+	questions : questions,
+	el : 'questions',
+	listeners : {
+		'finish' : showScore,
+		'missinganswer' : showAnswerAlert,
+		'sendanswer' : clearErrorBox
+	}
+});
+quizMaker.start();
+
+</script>
+</body>
+</html>
