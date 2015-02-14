@@ -35,11 +35,11 @@
 	height:19px;
 	background:transparent url(images/menu_bg-OFF.gif) no-repeat top left;
 }
-#menu ul li a:hover {
+#menu ul li a:click {
 	color:#fff;
 	background:transparent url(images/menu_bg-OVER.gif) no-repeat top right;
 }
-#menu ul li a.current,#menu ul li a.current:hover {
+#menu ul li a.current,#menu ul li a.current:click {
 	color:#000;
 	background:#fff;
 }

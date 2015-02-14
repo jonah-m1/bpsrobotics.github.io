@@ -84,15 +84,15 @@ body {
 }
 
 #sidebar li ul{
-	display:none;
+	display: block;
 }
 
-#sidebar li:hover ul{
+/*#sidebar li:hover ul{
 	display:block;
-	-webkit-animation: fadein 1s; /* Safari and Chrome */
-	-ms-animation: fadein 1s; /* Internet Explorer */
+	-webkit-animation: fadein 1s;
+	-ms-animation: fadein 1s;
 	animation: fadein 1s;
-}
+}*/
 
 				/*FOOTER*/
 #footer { 
@@ -149,7 +149,7 @@ a:link, a:visited {
 	background : inherit;
 	text-decoration : underline;
 } 
-a:hover { 
+a:click { 
 	color :  #636363;
 	background : inherit;
 	text-decoration : none;

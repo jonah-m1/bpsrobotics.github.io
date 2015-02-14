@@ -39,28 +39,28 @@
             	<ul id="sidebar">
                     <li><h3>Related Links</h3>
 						<ul>
-							<div><p><?php include('includes/related-links.txt'); ?></p></div>
+							<div><p><?php include('includes/related-links.html'); ?></p></div>
 						</ul>
 					</li>
                     <li><h3>Student Links</h3>
 						<ul>
-							<div><p><?php include('includes/student-links.txt'); ?></p></div>
+							<div><p><?php include('includes/student-links.html'); ?></p></div>
 						</ul>
 					</li>
                     <li><h3>Parent Links</h3>
 						<ul>
-							<div><p><?php include('includes/parent-links.txt'); ?></p></div>
+							<div><p><?php include('includes/parent-links.html'); ?></p></div>
 						</ul>
 					</li>
                     <li><h3>Mentor Links</h3>
 						<ul>
-							<div><p><?php include('includes/mentor-links.txt'); ?></p></div>
+							<div><p><?php include('includes/mentor-links.html'); ?></p></div>
 						</ul>
 					</li>
 					<li>
 						<h3><a href="#">Sponsors</a></h3>
 							<ul>
-								<div><p><?php include('includes/sponsors.txt'); ?></p></div>
+								<div><p><?php include('includes/sponsors.html'); ?></p></div>
 							</ul>
 					</li>
                 </ul>
