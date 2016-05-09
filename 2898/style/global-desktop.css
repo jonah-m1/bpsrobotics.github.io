@@ -1,5 +1,30 @@
+/* Animations */
+
+@keyframes navMouseInInactive {
+    from {
+	background-color: #0B0775;
+    }
+
+    to {
+	background-color: #060354;
+    }
+}
+
+@keyframes navMouseInActive {
+    from {
+	background-color: #A84900;
+    }
+
+    to {
+	background-color: #793400;
+    }
+}
+
+/* Stylesheet */
+
 html {
     height: 100%;
+    font-family: 'century gothic', arial, sans-serif;
 }
 
 * {
@@ -9,7 +34,7 @@ html {
 
 header {
     color: #BBBBBB;
-    background-color: #110C91;
+    background: radial-gradient(#110C91, #0B0775);
     width: 100%;
     margin: auto;
     overflow: auto;
@@ -72,12 +97,20 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: linear-gradient(#0B0775, #0B0775);
 }
 
 nav li {
@@ -93,9 +126,15 @@ nav li a {
 }
 
 nav li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #060354;
+    animation-duration: 0.2s;
 }
 
 nav a.active {
-    background-color: #4CAF50;
+    background-color: #A84900;
+}
+
+nav a.active:hover {
+    background-color: #793400;
+    animation-duration: 0.2s;
 }
