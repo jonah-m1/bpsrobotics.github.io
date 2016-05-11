@@ -1,179 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 
-<head>
-<meta charset="utf-8">
-<title>Team 2898 Robotics</title>
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<link rel="icon" href="images/img05.jpg" >
-<meta name="description" content="Team 2898 is Robotics team that competes in First Robotics Competions" />
+  <head>
 
+    <meta charset="utf-8">
+    <title>Home | FRC 2898</title>
 
-<link rel="stylesheet" href="css/nav.css">
-		<!--[if IE]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-        
-        <script language="JavaScript">
+    <link rel="stylesheet" type="text/css" href="style/global-desktop.css">
 
-<!--
- -->
+  </head>
 
-</script>
-</head>
+  <body>
 
+    <header>
+      <div class="content">
+        <div class="three-quarters">
+          <h1><a href="/2898/">FRC Team 2898</a></h1>
+          <h3>The Flying Hedgehogs</h3>
+        </div>
 
+        <div class="one-quarter">
+          <img alt="FIRST Logo" src="media/first-logo.gif" id="first-logo" class="float-right">
+        </div>
 
-<body onLoad="getitDone ()">
+        <br>
 
-<div id="wrapper">
+        <nav class="whole-width">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Robots</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Community Outreach</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li class="float-right"><a href="#">Contact us</a></li>
+	    <li class="float-right"><a href="#">Students</a></li>
+          </ul>
 
+        </nav>
+      </div>
+    </header>
 
-
-
-
-	<header>
-    	<div id="logo">
-		<h1><a href="http://bpsrobotics.org/2898/index.html">Flying Hedgehogs - Team 2898 Robotics </a></h1>
-		</div>
- 			<img class="firstlogo" src="images/firstimage.gif"width="75px" height="75px"/> 
-	</header>
-	<!-- end #header -->
-    
-    
-    
-    
-    
-    
-    
-	<nav id="topNav">
-        <script>
-			var el = document.getElementsByTagName("body")[0];
-			el.className = "";
-		</script>
-        <noscript>
-        	<!--[if IE]>
-            	<link rel="stylesheet" href="css/ie.css">
-            <![endif]-->
-        </noscript>
-		<ul id="main">
-			<li><a href="http://bpsrobotics.org/2898/index.html">Home</a></li>
-			<li><a href="http://www.usfirst.org/">FIRST</a>
-            		<ul>
-                    	<li><a href="#" title="What is FIRST">What is FIRST</a></li> 
-                    	<li><a href="http://www.usfirst.org/" title="First Website">First Website</a></li>                                              
-                    </ul>        
-            </li>
-			<li><a href="#">Our Team</a>
-            	
-            </li>
-			<li><a href="#">FRC Challenges</a></li>
-			<li><a href="#">Media</a></li>
-			<li><a href="#">Links</a></li>
-            <li><a href="#">Resources</a></li>			
-			<li><a href="#">Contact Us</a></li>			                 
-		</ul>
-       	<script src="js/jquery.js"></script>
-        <script src="js/modernizr.js"></script>
-		<script>
-			(function($){
-				
-				//cache nav
-				var nav = $("#topNav");
-				
-				//add indicator and hovers to submenu parents
-				nav.find("li").each(function() {
-					if ($(this).find("ul").length > 0) {
-						$("<span>").text("").appendTo($(this).children(":first"));
-
-						//show subnav on hover
-						$(this).mouseenter(function() {
-							$(this).find("ul").stop(true, true).slideDown();
-						});
-						
-						//hide submenus on exit
-						$(this).mouseleave(function() {
-							$(this).find("ul").stop(true, true).slideUp();
-						});
-					}
-				});
-			})(jQuery);
-		</script>
-    
-	</nav>
-    
+    <main class="content">
       
-	<div id="Logo"> 
-    <img class="slide1" src="images/cool.png" width="1000px" height="260px"/>
-    
-    </div>
-	<!-- end #menu -->
-    
-    
-    
-    
-    <div id="page">
+      <div class="two-thirds">
 	
-	<div id="page-bgbtm">
-		<div id="content">
-			<div class="post">
-				<h2 class="title">Welcome 2898 Robotics</h2>
-				<p class="meta">Team 2898, the Flying Hedgehogs, is based out of the Beaverton School District. We have been around for 2 years before our break. We came out of team 1510 Wildcats. We had so much participation that we split into two teams. We had such a high percentage of our students from the School of Science and Technology (SST) that we were made into an independent team. Team 1510 has greatly helped us get started. We share the same shop, come from the same schools, and help each other make robots. Being on team 2898 is a great experience.
+	<h2>Welcome to 2898 Flying Hedgehogs Robotics</h2>
 
-The 2898 Flying Hedgehogs robotics team is a great team with great potential. We hope to show our potential next year. See you all at the competition.</a></p>
-				
-			</div>
-            
-            <p id="build"> Site is Under Maintenance. Thank You for your patience.
-            
-            </p>
-			
-		<div style="clear: both;">&nbsp;</div>
-		</div>
-		<!-- end #content -->
-        
-        
-        
-        
-        
-        
-        
-        
-		<aside>
-			<ul>
-				<li>
-					<a href="redirect.html" > <img class="westview" src="images/west.png" width="325px" height="100px"/> </a>
-				</li>
-				
-				<li>
-					<h2>For Team Members</h2>
-					<ul>
-						<li><a href="http://team1510.bpsrobotics.org/safety.html">Safety Tests</a></li>
-						<li><a href="http://team1510.bpsrobotics.org/handbook.pdf">Team Handbook</a></li>
-						<li><a href="http://bpsrobotics.org/time/login.php">Time Sheet log in</a></li>
-						<li><a href="http://www.bpsrobotics.org/1510/fileshare.html">File Sharing</a></li>
-					</ul>
-				</li>
-			</ul>
-		</aside>
-		<!-- end #sidebar -->
-		<div style="clear: both;">&nbsp;</div>
-        
-        
-        
-        
-        
-	</div>
-	</div>
-	<!-- end #page -->
+	<p>
+	  Team 2898, the Flying Hedgehogs, is based out of the Beaverton School District School of Science and Technology. We have existed since 2009, and have played in three years since that time, 2009, 2012, and 2013. We will be rejoining the world of FRC robotics for the 2017 season.
+	</p>
+	<br>
+	<p>
+	  Our sister team, 1510 The Wildcats, had such a large percentage of students from the School of Science and Technology that we split and became our own team. Team 1510 has helped our team become a reality. We share resources including a machine shop, storage areas, and robot designs.
+	</p>
 
+	<h2>Site Under Construction</h2>
+	<p>
+	  Our site is currently undergoing maintenance in preparation for our return next yaer. We apologize for any problems this may cause. Feel free to check out <a href="/1510/">Team 1510</a>'s page at this time.
+	</p>
+      </div>
 
+      <div class="one-third">
 
-	<footer>
-		<p>© 2012  2898 Robotics. </a></p>
-	</footer>
-    
-    </div>
+	<h3>Helpful links</h3>
 	
-</body>
+	<ul>
+	  <li><a href="../1510/">Team 1510</a></li>
+	  <li><a href="../">BPS Robotics</a></li>
+	  <li><a href="https://github.com/bpsrobotics/">BPS Robotics GitHub</a></li>
+	</ul>
+	
+      </div>
+      
+    </main>
+
+  </body>
+
 </html>
