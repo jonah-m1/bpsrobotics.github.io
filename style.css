@@ -1,18 +1,3 @@
-@keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
-}
-/* Safari and Chrome */
-@-webkit-keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
-}
-/* Internet Explorer */
-@-ms-keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
-}
-
 html, body { 
 	margin : 0;
 	padding : 0;
@@ -35,10 +20,6 @@ body {
 	padding: 0;
 	color: #555;
 	background: transparent url(images/wrap_bg.jpg) repeat-x;
-
-	-webkit-animation: fadein 1s; /* Safari and Chrome */
-	-ms-animation: fadein 1s; /* Internet Explorer */
-	animation: fadein 1s;
 } 
 			/*BANNER*/
 #masthead { 
@@ -89,7 +70,8 @@ body {
 
 /*#sidebar li:hover ul{
 	display:block;
-	-webkit-animation: fadein 1s;
+	-webkit-
+	animation: fadein 1s;
 	-ms-animation: fadein 1s;
 	animation: fadein 1s;
 }*/
